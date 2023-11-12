@@ -17,7 +17,7 @@ global.devs = '94710109956';
 global.INBOX_BLOCK = 'true'
 global.TIMEZONE = 'Asia/Colombo' 
 global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/daa9647f2139e462e4316.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/f109ec5ccceb320291614.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'SHENU-QUEEN-MD 🧚' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'CYBER-THUSHAN' : process.env.OWNER_NAME,
