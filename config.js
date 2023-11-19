@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split("94710109956,")
+global.owner = process.env.OWNER_NUMBER.split("918637016112,")
 global.mongodb = process.env.MONGODB_URI || "mongodb://mongo:cCBe2fBeA26f4eEbDbC2gD64226EHFg3@viaduct.proxy.rlwy.net:34483"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
@@ -17,7 +17,7 @@ global.devs = '94710109956';
 global.INBOX_BLOCK = 'true'
 global.TIMEZONE = 'Asia/Colombo' 
 global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/f109ec5ccceb320291614.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/93a0bcdd99dd185f4f513.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'SHENU-QUEEN-MD 🧚' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'CYBER-THUSHAN' : process.env.OWNER_NAME,
